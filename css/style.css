@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+   nav{
+       display: flex;
+    position: relative;
+    position: sticky;
+    align-items: center;
+    top: 0px;
+    
+    height: 60px;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #dfdfdf;
+    z-index: 10;
+
+   }.insta{
+       height: 50px;
+       margin-left: 287px;
+   }.search-box{
+       margin-left: 0px;
+   }.search-icon{
+    margin-left: 268px;
+    margin-top: 12px;
+    position: absolute;
+
+   }input[type=search]{
+       /* width: 260px;
+       padding: 15px; */
+       padding-left: 40px;
+       height: 40px;
+       width: 18rem;
+       font-size: 17px;
+       background-color: #efefef;
+       border-radius: 8px;
+       margin-right: 149px;
+       margin-left: 256px;
+       border: none;
+   }
+   .insta-icons{
+    margin-left: -70px;
+    display: flex;
+    gap: 0px;
+    cursor: pointer;
+
+   }svg{
+       margin: 10px;
+       cursor: pointer;
+   }.my-pic{
+       height: 45px;
+   }section{
+       padding: 25px 18%;
+       background-color: #fafafa;
+       display: flex;
+     /* left side */
+   }.left-side{
+       width: 47%;
+       margin-left: 100px;
+   
+   }.story{
+      width: 94%;
+       display: flex;
+       gap: 19px;
+       padding: 16px;
+       background-color: white;
+       border: 1px solid rgba(219,219,219,1);
+       overflow-x: scroll;
+       border-radius: 15px;
+      
+
+   }.story::-webkit-scrollbar{
+       display: none;
+   }
+   
+   .story .stories{
+       width: 14%;
+       
+   }.story .stories a img{
+       border-radius: 50%;
+       border: 2px solid green;
+       padding: 4px;
+       object-fit: cover;
+   }.story .stories p{
+       width: 90%;
+       font-size: 12px;
+       overflow: hidden;
+       white-space: nowrap;
+       margin-left: 17px;
+       /* text-overflow: ellipsis; */
+       color: #262626;
+
+   }
+
+
+   /* post */
+
+   .posts{
+       margin: 19px 0;
+       background-color: white;
+       border: 1px solid rgba(219,219,219,1);
+       border-radius: 15px;
+   }.posts .post-title{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 0px;
+
+
+   }.posts .post-title .post-left{
+       display: flex;
+       align-items: center;
+
+   }.posts .post-title .post-left .image{
+       margin: 15px;
+
+   }.posts .post-title .post-left .image img{
+       border-radius: 50%;
+       object-fit: contain;
+   }.posts .post-title .post-left .details .name{
+       padding-bottom: 2px;
+       font-weight: bold;
+       font-size: 16px;
+   }.posts .post-title .post-left .details .location{
+       color: grey;
+       font-size: 13px;
+   }
+    .posts .post-content img{
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+       
+/*   footer */
+
+   }.posts .post-footer{
+       display: flex;
+       justify-content: space-between;
+       padding: 8px;
+
+   }.posts .post-footer .like-share-comment{
+       font-size: 7px;
+       margin-right: 10px;
+   }.posts .post-footer .save{
+       font-size: 22px;
+
+        /* footer content */
+   }.posts .post-footer-content{
+       padding: 0 16px 16px 16px;
+   }.posts .post-footer-content p{
+       margin-bottom: 3px;
+       font-family: Arial, Helvetica, sans-serif;
+   }.posts .post-footer-content .likes{
+       margin-bottom: 8px;
+       color: black;
+   }.posts .post-footer-content .name{
+    font-weight: 600;
+   }.posts .post-footer-content span{
+       margin-left: 10px;
+       font-weight:normal;
+   }.posts .post-footer-content .comments{
+       color: gray;
+   }
+   .posts .post-footer-content .posting-time{
+       font-size: 8px;
+       color: gray;
+       margin-top: 6px;
+   }.posts .add-comment{
+       padding: 8px;
+       border-top: 1px solid #efefef;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+   }.posts .add-comment .left-side{
+       display: flex;
+       align-items: center;
+       margin-left: -5px;
+      
+   }.posts .add-comment .left-side input{
+       width: 100%;
+       outline: none;
+       border: none;
+       font-size: 14px;
+
+    /* right side */
+
+   }.right-side{
+    width: 40%;
+    margin-top: 15px;
+    position: fixed;
+    right: 45px;
+   
+
+   }.right-side .profile-title{
+       display: flex;
+       align-items: center;
+   }
+   .right-side .profile-title .profile-left{
+       display: flex;
+       align-items: center;
+       margin-right: 180px;
+   }.right-side .profile-title .profile-left .image img{
+       border-radius: 50%;
+       margin-right: 15px;
+   }.right-side .profile-title .profile-left .details .name{
+       padding-bottom: 3px;
+       color: black;
+       font-weight: bolder;
+       font-size: 15px;
+
+   }.right-side .profile-title .profile-left .details .surname{
+    color: gray;
+    font-size: 15px;
+       
+   
+   }.suggestions{
+       display: flex;
+       margin-top: 25px;
+       margin-bottom: 20px;
+   }.suggestions p{
+       margin-right: 220px;
+       color: rgba(0, 0, 0, 0.974);
+   }.suggestions .for-you{
+       font-size: 14px;
+       color: gray;
+   }.suggestions .location{
+       font-size: 12px;
+   }
+    
+   .suggestion-title{
+       display: flex;
+       align-items: center;
+       margin-bottom: 15px;
+   } .suggestion-title .suggestion-left{
+       display: flex;
+       align-items: center;
+       margin-right: -28px;
+   } .suggestion-title .suggestion-left .image img{
+       border-radius: 50%;
+       margin-right: 15px;
+       object-fit: cover;
+   } .suggestion-title .suggestion-left .details .name{
+       padding-bottom: 3px;
+       font-weight: bold;
+
+   }.suggestion-title .suggestion-left .details .location{
+       color: gray;
+       font-size: 11px;
+   }
+
+    .suggestion-right{
+       margin-left: 150px;
+   }.blue{
+       color: #2da2d1;
+       font-weight: bolder;
+       font-size: 13px;
+       cursor: pointer;
+   }body{
+    background-color: rgb(var(--ig-secondary-background));
+   }.about-us a{
+       text-decoration: none;
+      
+   }.about-us{
+       color: gray;
+       font-size: 12px;
+       margin-top: 30px;
+   }.blue1{
+    color: #a5e1f9;
+    font-weight: bolder;
+    font-size: 15px;
+    cursor: pointer;
+    padding-right: 42px;
+}
